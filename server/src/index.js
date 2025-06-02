@@ -4,6 +4,7 @@ import bodyParser from 'body-parser'
 
 import { mockAuth } from './middleware/mockAuth.js'
 import postRoutes from './routes/posts.js'
+import commentRoutes from './routes/comments.js'
 
 const app = express()
 const PORT = 3001
@@ -14,6 +15,7 @@ app.use(mockAuth)
 
 // 라우터 등록
 app.use('/posts', postRoutes)
+app.use('/comments', commentRoutes)
 
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`)

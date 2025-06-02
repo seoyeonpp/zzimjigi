@@ -1,0 +1,14 @@
+{
+  "posts": [],
+  "comments": [
+    {
+      "id": "25b9245b-1b67-44e9-8271-efe29e06d09c",
+      "postId": "1",
+      "userId": "test-user-1",
+      "content": "살까 고민되네요",
+      "createdAt": "2025-06-02T08:29:34.147Z"
+    }
+  ],
+  "votes": [],
+  "users": []
+}
